@@ -1,0 +1,891 @@
+{
+  "home": {
+    "user": {
+      "document1": "This is the content of document1.",
+      "document2": "Another content here for document2."
+    }
+  },
+  "array-method-exercises": {
+    "README.md": "https://github.com/donnybrilliant/array-method-exercises/blob/main/README.md",
+    "filter": {
+      "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/exercise-1.html",
+      "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/exercise-1.js",
+      "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/exercise-2.html",
+      "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/exercise-2.js",
+      "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/exercise-3.html",
+      "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/exercise-3.js",
+      "solutions": {
+        "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/solutions/exercise-1.html",
+        "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/solutions/exercise-1.js",
+        "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/solutions/exercise-2.html",
+        "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/solutions/exercise-2.js",
+        "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/solutions/exercise-3.html",
+        "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/filter/solutions/exercise-3.js"
+      }
+    },
+    "find": {
+      "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-1.html",
+      "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-1.js",
+      "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-2.html",
+      "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-2.js",
+      "exercise-3-data.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-3-data.js",
+      "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-3.html",
+      "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/exercise-3.js",
+      "solutions": {
+        "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-1.html",
+        "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-1.js",
+        "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-2.html",
+        "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-2.js",
+        "exercise-3-data.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-3-data.js",
+        "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-3.html",
+        "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/find/solutions/exercise-3.js"
+      }
+    },
+    "map": {
+      "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/exercise-1.html",
+      "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/exercise-1.js",
+      "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/exercise-2.html",
+      "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/exercise-2.js",
+      "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/exercise-3.html",
+      "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/exercise-3.js",
+      "solutions": {
+        "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/solutions/exercise-1.html",
+        "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/solutions/exercise-1.js",
+        "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/solutions/exercise-2.html",
+        "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/solutions/exercise-2.js",
+        "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/solutions/exercise-3.html",
+        "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/map/solutions/exercise-3.js"
+      }
+    },
+    "reduce": {
+      "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/exercise-1.html",
+      "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/exercise-1.js",
+      "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/exercise-2.html",
+      "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/exercise-2.js",
+      "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/exercise-3.html",
+      "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/exercise-3.js",
+      "solutions": {
+        "exercise-1.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/solutions/exercise-1.html",
+        "exercise-1.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/solutions/exercise-1.js",
+        "exercise-2.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/solutions/exercise-2.html",
+        "exercise-2.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/solutions/exercise-2.js",
+        "exercise-3.html": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/solutions/exercise-3.html",
+        "exercise-3.js": "https://github.com/donnybrilliant/array-method-exercises/blob/main/reduce/solutions/exercise-3.js"
+      }
+    }
+  },
+  "codex": {
+    ".github": {
+      "workflows": {
+        "deploy.yml": "https://github.com/donnybrilliant/codex/blob/main/.github/workflows/deploy.yml"
+      }
+    },
+    ".gitignore": "https://github.com/donnybrilliant/codex/blob/main/.gitignore",
+    "README.md": "https://github.com/donnybrilliant/codex/blob/main/README.md",
+    "client": {
+      ".gitignore": "https://github.com/donnybrilliant/codex/blob/main/client/.gitignore",
+      "assets": {
+        "bot.svg": "https://github.com/donnybrilliant/codex/blob/main/client/assets/bot.svg",
+        "send.svg": "https://github.com/donnybrilliant/codex/blob/main/client/assets/send.svg",
+        "user.svg": "https://github.com/donnybrilliant/codex/blob/main/client/assets/user.svg"
+      },
+      "index.html": "https://github.com/donnybrilliant/codex/blob/main/client/index.html",
+      "javascript.svg": "https://github.com/donnybrilliant/codex/blob/main/client/javascript.svg",
+      "main.js": "https://github.com/donnybrilliant/codex/blob/main/client/main.js",
+      "package-lock.json": "https://github.com/donnybrilliant/codex/blob/main/client/package-lock.json",
+      "package.json": "https://github.com/donnybrilliant/codex/blob/main/client/package.json",
+      "public": {
+        "favicon.ico": "https://github.com/donnybrilliant/codex/blob/main/client/public/favicon.ico"
+      },
+      "style.css": "https://github.com/donnybrilliant/codex/blob/main/client/style.css",
+      "vite.config.js": "https://github.com/donnybrilliant/codex/blob/main/client/vite.config.js"
+    },
+    "server": {
+      ".gitignore": "https://github.com/donnybrilliant/codex/blob/main/server/.gitignore",
+      "package-lock.json": "https://github.com/donnybrilliant/codex/blob/main/server/package-lock.json",
+      "package.json": "https://github.com/donnybrilliant/codex/blob/main/server/package.json",
+      "server.js": "https://github.com/donnybrilliant/codex/blob/main/server/server.js"
+    }
+  },
+  "CSS-Frameworks": {
+    ".gitignore": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/.gitignore",
+    "README.md": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/README.md",
+    "assets": {
+      "images": {
+        "avatar.svg": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/assets/images/avatar.svg",
+        "css-frameworks.png": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/assets/images/css-frameworks.png",
+        "favicon.ico": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/assets/images/favicon.ico",
+        "placeholder.jpeg": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/assets/images/placeholder.jpeg"
+      }
+    },
+    "index.html": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/index.html",
+    "notifications.html": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/notifications.html",
+    "package-lock.json": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/package-lock.json",
+    "package.json": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/package.json",
+    "profile.html": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/profile.html",
+    "src": {
+      "scss": {
+        "_variables.scss": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/src/scss/_variables.scss",
+        "styles.scss": "https://github.com/donnybrilliant/CSS-Frameworks/blob/main/src/scss/styles.scss"
+      }
+    }
+  },
+  "daniel-vier-js1-ca": {
+    ".gitattributes": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/.gitattributes",
+    "README.md": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/README.md",
+    "contact.html": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/contact.html",
+    "css": {
+      "style.css": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/css/style.css"
+    },
+    "details.html": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/details.html",
+    "index.html": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/index.html",
+    "js": {
+      "contact.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/contact.js",
+      "details.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/details.js",
+      "form": {
+        "checkLength.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/form/checkLength.js",
+        "validateEmail.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/form/validateEmail.js",
+        "validateForm.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/form/validateForm.js"
+      },
+      "functions": {
+        "formatDate.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/functions/formatDate.js"
+      },
+      "index.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/index.js",
+      "ui": {
+        "renderEvent.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/ui/renderEvent.js",
+        "renderEventList.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/ui/renderEventList.js",
+        "renderMessage.js": "https://github.com/donnybrilliant/daniel-vier-js1-ca/blob/main/js/ui/renderMessage.js"
+      }
+    }
+  },
+  "daniel-vier-js1-ma1": {
+    "README.md": "https://github.com/donnybrilliant/daniel-vier-js1-ma1/blob/main/README.md",
+    "index.html": "https://github.com/donnybrilliant/daniel-vier-js1-ma1/blob/main/index.html",
+    "js": {
+      "script.js": "https://github.com/donnybrilliant/daniel-vier-js1-ma1/blob/main/js/script.js"
+    }
+  },
+  "daniel-vier-js1-ma3": {
+    ".gitattributes": "https://github.com/donnybrilliant/daniel-vier-js1-ma3/blob/main/.gitattributes",
+    "README.md": "https://github.com/donnybrilliant/daniel-vier-js1-ma3/blob/main/README.md",
+    "index.html": "https://github.com/donnybrilliant/daniel-vier-js1-ma3/blob/main/index.html",
+    "js": {
+      "question-1.js": "https://github.com/donnybrilliant/daniel-vier-js1-ma3/blob/main/js/question-1.js",
+      "question-2.js": "https://github.com/donnybrilliant/daniel-vier-js1-ma3/blob/main/js/question-2.js"
+    }
+  },
+  "daniel-vier-js2-ca": {
+    ".gitignore": "https://github.com/donnybrilliant/daniel-vier-js2-ca/blob/main/.gitignore",
+    "README.md": "https://github.com/donnybrilliant/daniel-vier-js2-ca/blob/main/README.md"
+  },
+  "development-platforms": {
+    ".github": {
+      "workflows": {
+        "review.yml": "https://github.com/donnybrilliant/development-platforms/blob/main/.github/workflows/review.yml"
+      }
+    },
+    ".gitignore": "https://github.com/donnybrilliant/development-platforms/blob/main/.gitignore",
+    ".vscode": {
+      "settings.json": "https://github.com/donnybrilliant/development-platforms/blob/main/.vscode/settings.json"
+    },
+    "README.md": "https://github.com/donnybrilliant/development-platforms/blob/main/README.md",
+    "baas-starter-frontend-video-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/baas-starter-frontend-video-case-study.md",
+    "case-studies": {
+      "akamai": {
+        "akamai-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/akamai/akamai-case-study.md"
+      },
+      "amazon": {
+        "aws": {
+          "AWS-S3-video-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/amazon/aws/AWS-S3-video-case-study.md",
+          "aws-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/amazon/aws/aws-case-study.md"
+        }
+      },
+      "apache": {
+        "apache-cassandra-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/apache/apache-cassandra-case-study.md"
+      },
+      "appwrite": {
+        "Appwrite-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/appwrite/Appwrite-case-study.md"
+      },
+      "azuredevops": {
+        "Azure-DevOps-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/azuredevops/Azure-DevOps-case-study.md",
+        "azuredevops-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/azuredevops/azuredevops-case-study.md"
+      },
+      "firebase": {
+        "firebase-case-study-DinaOluf.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study-DinaOluf.md",
+        "firebase-case-study-Jonast96.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study-Jonast96.md",
+        "firebase-case-study-May-Tove.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study-May-Tove.md",
+        "firebase-case-study-NeNorvalls.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study-NeNorvalls.md",
+        "firebase-case-study-barlaek.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study-barlaek.md",
+        "firebase-case-study-pnordboj.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study-pnordboj.md",
+        "firebase-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/firebase/firebase-case-study.md"
+      },
+      "frameworks & other tools": {
+        "expressjs": {
+          "express-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/expressjs/express-case-study.md"
+        },
+        "nextjs": {
+          "NextJs-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/nextjs/NextJs-case-study.md"
+        },
+        "svelte": {
+          "svelte-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/svelte/svelte-case-study.md",
+          "svelte-tutorial.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/svelte/svelte-tutorial.md"
+        },
+        "trpc": {
+          "trpc-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/trpc/trpc-case-study.md"
+        },
+        "vite": {
+          "vite-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/vite/vite-case-study.md",
+          "vite-video-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/frameworks & other tools/vite/vite-video-case-study.md"
+        }
+      },
+      "github": {
+        "GitHub-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/github/GitHub-case-study.md",
+        "copilot": {
+          "GitHub-Copilot-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/github/copilot/GitHub-Copilot-case-study.md"
+        },
+        "github-video-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/github/github-video-case-study.md"
+      },
+      "gitkraken": {
+        "gitkraken-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/gitkraken/gitkraken-case-study.md"
+      },
+      "google": {
+        "google-platforms-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/google/google-platforms-case-study.md"
+      },
+      "hotjar": {
+        "hotjar-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/hotjar/hotjar-case-study.md"
+      },
+      "index.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/index.md",
+      "microsoft": {
+        "azure": {
+          "microsoft-azure-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/microsoft/azure/microsoft-azure-case-study.md"
+        }
+      },
+      "mongodb": {
+        "archive": {
+          "mongoDB-case-study-Jenfer93.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/mongodb/archive/mongoDB-case-study-Jenfer93.md",
+          "mongodb-case-study-oyvind-meldahl.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/mongodb/archive/mongodb-case-study-oyvind-meldahl.md"
+        },
+        "mongodb-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/mongodb/mongodb-case-study.md"
+      },
+      "neo4j": {
+        "neo4j-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/neo4j/neo4j-case-study.md"
+      },
+      "openai": {
+        "chatgpt": {
+          "archive": {
+            "chatGPT-case-study-Melisa-Zorraindo.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/openai/chatgpt/archive/chatGPT-case-study-Melisa-Zorraindo.md",
+            "chatGPT-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/openai/chatgpt/archive/chatGPT-case-study.md"
+          },
+          "chatGPT-case-study-jonaslod.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/openai/chatgpt/chatGPT-case-study-jonaslod.md"
+        }
+      },
+      "postgresql": {
+        "postgres-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/postgresql/postgres-case-study.md",
+        "postgres-psql-video-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/postgresql/postgres-psql-video-case-study.md"
+      },
+      "prometheus": {
+        "prometheus_toolkit.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/prometheus/prometheus_toolkit.md"
+      },
+      "strapi": {
+        "strapi.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/strapi/strapi.md"
+      },
+      "tensorflow": {
+        "tensorflow-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/tensorflow/tensorflow-case-study.md"
+      },
+      "webhosting": {
+        "cpanel": {
+          "cPanel-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/webhosting/cpanel/cPanel-case-study.md"
+        },
+        "vps": {
+          "vps-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/webhosting/vps/vps-case-study.md"
+        },
+        "web-hosting-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/case-studies/webhosting/web-hosting-case-study.md"
+      }
+    },
+    "example-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/example-case-study.md",
+    "example-video-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/example-video-case-study.md",
+    "mysql-case-study.md": "https://github.com/donnybrilliant/development-platforms/blob/main/mysql-case-study.md",
+    "static": {
+      "images": {
+        "PostgreSQL-Features.jpg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/PostgreSQL-Features.jpg",
+        "References.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/References.jpeg",
+        "alibaba.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/alibaba.jpeg",
+        "ebay motor.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/ebay motor.jpeg",
+        "features.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/features.jpeg",
+        "features_services.jpg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/features_services.jpg",
+        "firebase.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/firebase.jpeg",
+        "firebase_products.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/firebase_products.png",
+        "github-mark-white.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/github-mark-white.png",
+        "github-mark.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/github-mark.png",
+        "github.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/github.png",
+        "index.md": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/index.md",
+        "le figaro.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/le figaro.jpeg",
+        "postgres.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/postgres.png",
+        "strengths.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/strengths.jpeg",
+        "tRPC-media": {
+          "database-result.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/database-result.png",
+          "demo.mov": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/demo.mov",
+          "export-router.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/export-router.png",
+          "form-example.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/form-example.png",
+          "rename-symbol.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/rename-symbol.png",
+          "trpc-graph.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/trpc-graph.png",
+          "trpc-graphql-comparison.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/trpc-graphql-comparison.png",
+          "use-definition-result.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/use-definition-result.png",
+          "use-definition.png": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/tRPC-media/use-definition.png"
+        },
+        "the new york times.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/the new york times.jpeg",
+        "todoist.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/todoist.jpeg",
+        "weaknesses.jpeg": "https://github.com/donnybrilliant/development-platforms/blob/main/static/images/weaknesses.jpeg"
+      }
+    }
+  },
+  "donnybrilliant": {
+    "README.md": "https://github.com/donnybrilliant/donnybrilliant/blob/main/README.md"
+  },
+  "front-end-frameworks-ca": {
+    ".eslintrc.cjs": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/.eslintrc.cjs",
+    ".gitignore": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/.gitignore",
+    "README.md": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/README.md",
+    "index.html": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/index.html",
+    "package.json": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/package.json",
+    "public": {
+      "vite.svg": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/public/vite.svg"
+    },
+    "src": {
+      "App.jsx": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/src/App.jsx",
+      "assets": {
+        "react.svg": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/src/assets/react.svg"
+      },
+      "main.jsx": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/src/main.jsx"
+    },
+    "vite.config.js": "https://github.com/donnybrilliant/front-end-frameworks-ca/blob/main/vite.config.js"
+  },
+  "install.sh": {
+    "README.md": "https://github.com/donnybrilliant/install.sh/blob/main/README.md",
+    "install.sh": "https://github.com/donnybrilliant/install.sh/blob/main/install.sh"
+  },
+  "MS-DOS": {
+    "LICENSE.md": "https://github.com/donnybrilliant/MS-DOS/blob/main/LICENSE.md",
+    "README.md": "https://github.com/donnybrilliant/MS-DOS/blob/main/README.md",
+    "msdos-logo.png": "https://github.com/donnybrilliant/MS-DOS/blob/main/msdos-logo.png",
+    "msdos-logo_250x250.png": "https://github.com/donnybrilliant/MS-DOS/blob/main/msdos-logo_250x250.png",
+    "v1.25": {
+      "Tim_Paterson_16Dec2013_email.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/Tim_Paterson_16Dec2013_email.txt",
+      "bin": {
+        "ART.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/ART.BAS",
+        "BALL.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/BALL.BAS",
+        "BASIC.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/BASIC.COM",
+        "BASICA.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/BASICA.COM",
+        "CALENDAR.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/CALENDAR.BAS",
+        "CHKDSK.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/CHKDSK.COM",
+        "CIRCLE.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/CIRCLE.BAS",
+        "COLORBAR.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/COLORBAR.BAS",
+        "COMM.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/COMM.BAS",
+        "COMMAND.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/COMMAND.COM",
+        "COMP.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/COMP.COM",
+        "DEBUG.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/DEBUG.COM",
+        "DISKCOMP.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/DISKCOMP.COM",
+        "DISKCOPY.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/DISKCOPY.COM",
+        "DONKEY.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/DONKEY.BAS",
+        "EDLIN.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/EDLIN.COM",
+        "EXE2BIN.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/EXE2BIN.EXE",
+        "FORMAT.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/FORMAT.COM",
+        "LINK.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/LINK.EXE",
+        "MODE.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/MODE.COM",
+        "MORTGAGE.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/MORTGAGE.BAS",
+        "MUSIC.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/MUSIC.BAS",
+        "PIECHART.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/PIECHART.BAS",
+        "SAMPLES.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/SAMPLES.BAS",
+        "SETCLOCK.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/SETCLOCK.COM",
+        "SPACE.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/SPACE.BAS",
+        "SYS.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/bin/SYS.COM"
+      },
+      "source": {
+        "ASM.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/ASM.ASM",
+        "COMMAND.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/COMMAND.ASM",
+        "HEX2BIN.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/HEX2BIN.ASM",
+        "IO.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/IO.ASM",
+        "MSDOS.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/MSDOS.ASM",
+        "STDDOS.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/STDDOS.ASM",
+        "TRANS.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v1.25/source/TRANS.ASM"
+      }
+    },
+    "v2.0": {
+      "bin": {
+        "ANSI.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/ANSI.DOC",
+        "CHKDSK.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/CHKDSK.COM",
+        "COMMAND.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/COMMAND.COM",
+        "CONFIG.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/CONFIG.DOC",
+        "CREF.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/CREF.EXE",
+        "DEBUG.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/DEBUG.COM",
+        "DEVDRIV.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/DEVDRIV.DOC",
+        "DISKCOPY.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/DISKCOPY.COM",
+        "DOSPATCH.TXT": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/DOSPATCH.TXT",
+        "EDLIN.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/EDLIN.COM",
+        "EXE2BIN.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/EXE2BIN.EXE",
+        "FC.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/FC.EXE",
+        "FILBP.PAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/FILBP.PAS",
+        "FIND.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/FIND.EXE",
+        "FORMAT.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/FORMAT.DOC",
+        "FORMAT.OBJ": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/FORMAT.OBJ",
+        "FORMES.OBJ": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/FORMES.OBJ",
+        "INCOMP.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/INCOMP.DOC",
+        "INT24.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/INT24.DOC",
+        "LINK.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/LINK.EXE",
+        "MASM.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/MASM.EXE",
+        "MORE.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/MORE.COM",
+        "MSDOS.SYS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/MSDOS.SYS",
+        "PRINT.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/PRINT.COM",
+        "PROFIL.OBJ": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/PROFIL.OBJ",
+        "PROFILE.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/PROFILE.DOC",
+        "PROHST.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/PROHST.EXE",
+        "PROHST.PAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/PROHST.PAS",
+        "QUICK.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/QUICK.DOC",
+        "README.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/README.DOC",
+        "RECOVER.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/RECOVER.COM",
+        "SORT.EXE": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/SORT.EXE",
+        "SYS.COM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/SYS.COM",
+        "SYSCALL.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/SYSCALL.DOC",
+        "SYSIMES.OBJ": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/SYSIMES.OBJ",
+        "SYSINIT.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/SYSINIT.DOC",
+        "SYSINIT.OBJ": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/SYSINIT.OBJ",
+        "UTILITY.DOC": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/bin/UTILITY.DOC"
+      },
+      "source": {
+        "ALLOC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/ALLOC.ASM",
+        "ANSI.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/ANSI.txt",
+        "BUF.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/BUF.ASM",
+        "CHKDSK.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/CHKDSK.ASM",
+        "CHKMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/CHKMES.ASM",
+        "CHKPROC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/CHKPROC.ASM",
+        "COMEQU.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COMEQU.ASM",
+        "COMLINK": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COMLINK",
+        "COMMAND.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COMMAND.ASM",
+        "COMSEG.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COMSEG.ASM",
+        "COMSW.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COMSW.ASM",
+        "CONFIG.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/CONFIG.txt",
+        "COPY.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COPY.ASM",
+        "COPYPROC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/COPYPROC.ASM",
+        "CPARSE.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/CPARSE.ASM",
+        "CTRLC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/CTRLC.ASM",
+        "DEBASM.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBASM.ASM",
+        "DEBCOM1.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBCOM1.ASM",
+        "DEBCOM2.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBCOM2.ASM",
+        "DEBCONST.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBCONST.ASM",
+        "DEBDATA.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBDATA.ASM",
+        "DEBEQU.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBEQU.ASM",
+        "DEBMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBMES.ASM",
+        "DEBUASM.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBUASM.ASM",
+        "DEBUG.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEBUG.ASM",
+        "DEV.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEV.ASM",
+        "DEVDRIV.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEVDRIV.txt",
+        "DEVSYM.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DEVSYM.ASM",
+        "DIR.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DIR.ASM",
+        "DIRCALL.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DIRCALL.ASM",
+        "DISK.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DISK.ASM",
+        "DISKCOPY.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DISKCOPY.ASM",
+        "DISKMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DISKMES.ASM",
+        "DOSLINK": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSLINK",
+        "DOSMAC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSMAC.ASM",
+        "DOSMAC_v211.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSMAC_v211.ASM",
+        "DOSMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSMES.ASM",
+        "DOSSEG.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSSEG.ASM",
+        "DOSSYM.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSSYM.ASM",
+        "DOSSYM_v211.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/DOSSYM_v211.ASM",
+        "EDLIN.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/EDLIN.ASM",
+        "EDLMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/EDLMES.ASM",
+        "EDLPROC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/EDLPROC.ASM",
+        "EXE2BIN.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/EXE2BIN.ASM",
+        "EXEC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/EXEC.ASM",
+        "EXEMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/EXEMES.ASM",
+        "FAT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FAT.ASM",
+        "FC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FC.ASM",
+        "FCB.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FCB.ASM",
+        "FCMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FCMES.ASM",
+        "FIND.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FIND.ASM",
+        "FINDMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FINDMES.ASM",
+        "FORMAT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FORMAT.ASM",
+        "FORMAT.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FORMAT.txt",
+        "FORMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/FORMES.ASM",
+        "GENFOR.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/GENFOR.ASM",
+        "GETSET.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/GETSET.ASM",
+        "HRDDRV.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/HRDDRV.ASM",
+        "IFEQU.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/IFEQU.ASM",
+        "INCOMP.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/INCOMP.txt",
+        "INIT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/INIT.ASM",
+        "INT24.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/INT24.txt",
+        "MISC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MISC.ASM",
+        "MORE.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MORE.ASM",
+        "MOREMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MOREMES.ASM",
+        "MSCODE.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MSCODE.ASM",
+        "MSDATA.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MSDATA.ASM",
+        "MSDOS.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MSDOS.ASM",
+        "MSHEAD.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MSHEAD.ASM",
+        "MSINIT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/MSINIT.ASM",
+        "PCLOCK.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PCLOCK.ASM",
+        "PRINT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PRINT.ASM",
+        "PRINT_v211.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PRINT_v211.ASM",
+        "PROC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PROC.ASM",
+        "PROFIL.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PROFIL.ASM",
+        "PROFILE.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PROFILE.txt",
+        "PROHST.HLP": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/PROHST.HLP",
+        "QUICK.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/QUICK.txt",
+        "RDATA.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/RDATA.ASM",
+        "README.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/README.txt",
+        "RECMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/RECMES.ASM",
+        "RECOVER.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/RECOVER.ASM",
+        "ROM.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/ROM.ASM",
+        "RUCODE.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/RUCODE.ASM",
+        "SKELIO.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SKELIO.ASM",
+        "SORT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SORT.ASM",
+        "SORTMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SORTMES.ASM",
+        "STDBUF.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDBUF.ASM",
+        "STDCALL.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDCALL.ASM",
+        "STDCTRLC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDCTRLC.ASM",
+        "STDFCB.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDFCB.ASM",
+        "STDIO.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDIO.ASM",
+        "STDPROC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDPROC.ASM",
+        "STDSW.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STDSW.ASM",
+        "STRIN.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/STRIN.ASM",
+        "SYS.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYS.ASM",
+        "SYSCALL.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYSCALL.ASM",
+        "SYSCALL.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYSCALL.txt",
+        "SYSIMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYSIMES.ASM",
+        "SYSINIT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYSINIT.ASM",
+        "SYSINIT.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYSINIT.txt",
+        "SYSMES.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/SYSMES.ASM",
+        "TCODE.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TCODE.ASM",
+        "TCODE2.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TCODE2.ASM",
+        "TCODE3.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TCODE3.ASM",
+        "TCODE4.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TCODE4.ASM",
+        "TCODE5.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TCODE5.ASM",
+        "TDATA.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TDATA.ASM",
+        "TIME.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TIME.ASM",
+        "TSPC.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TSPC.ASM",
+        "TUCODE.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/TUCODE.ASM",
+        "UINIT.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/UINIT.ASM",
+        "UTILITY.txt": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/UTILITY.txt",
+        "WSBAUD.BAS": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/WSBAUD.BAS",
+        "WSMSGS.OVR": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/WSMSGS.OVR",
+        "WSOVLY1.OVR": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/WSOVLY1.OVR",
+        "XENIX.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/XENIX.ASM",
+        "XENIX2.ASM": "https://github.com/donnybrilliant/MS-DOS/blob/main/v2.0/source/XENIX2.ASM"
+      }
+    }
+  },
+  "programming-foundations-ma2": {
+    ".vscode": {
+      "settings.json": "https://github.com/donnybrilliant/programming-foundations-ma2/blob/main/.vscode/settings.json"
+    },
+    "README.md": "https://github.com/donnybrilliant/programming-foundations-ma2/blob/main/README.md",
+    "css": {
+      "style.css": "https://github.com/donnybrilliant/programming-foundations-ma2/blob/main/css/style.css"
+    },
+    "index.html": "https://github.com/donnybrilliant/programming-foundations-ma2/blob/main/index.html",
+    "js": {
+      "script.js": "https://github.com/donnybrilliant/programming-foundations-ma2/blob/main/js/script.js"
+    }
+  },
+  "semester-project-2": {
+    ".eslintrc.json": "https://github.com/donnybrilliant/semester-project-2/blob/main/.eslintrc.json",
+    ".github": {
+      "workflows": {
+        "pages.yml": "https://github.com/donnybrilliant/semester-project-2/blob/main/.github/workflows/pages.yml"
+      }
+    },
+    ".gitignore": "https://github.com/donnybrilliant/semester-project-2/blob/main/.gitignore",
+    ".husky": {
+      ".gitignore": "https://github.com/donnybrilliant/semester-project-2/blob/main/.husky/.gitignore",
+      "pre-commit": "https://github.com/donnybrilliant/semester-project-2/blob/main/.husky/pre-commit"
+    },
+    "README.md": "https://github.com/donnybrilliant/semester-project-2/blob/main/README.md",
+    "assets": {
+      "images": {
+        "avatar.svg": "https://github.com/donnybrilliant/semester-project-2/blob/main/assets/images/avatar.svg",
+        "favicon.ico": "https://github.com/donnybrilliant/semester-project-2/blob/main/assets/images/favicon.ico",
+        "placeholder.jpeg": "https://github.com/donnybrilliant/semester-project-2/blob/main/assets/images/placeholder.jpeg"
+      },
+      "resources": {
+        "Gantt.pdf": "https://github.com/donnybrilliant/semester-project-2/blob/main/assets/resources/Gantt.pdf",
+        "styleguide.jpeg": "https://github.com/donnybrilliant/semester-project-2/blob/main/assets/resources/styleguide.jpeg"
+      }
+    },
+    "index.html": "https://github.com/donnybrilliant/semester-project-2/blob/main/index.html",
+    "listing": {
+      "index.html": "https://github.com/donnybrilliant/semester-project-2/blob/main/listing/index.html",
+      "masonry.html": "https://github.com/donnybrilliant/semester-project-2/blob/main/listing/masonry.html"
+    },
+    "package-lock.json": "https://github.com/donnybrilliant/semester-project-2/blob/main/package-lock.json",
+    "package.json": "https://github.com/donnybrilliant/semester-project-2/blob/main/package.json",
+    "profile": {
+      "index.html": "https://github.com/donnybrilliant/semester-project-2/blob/main/profile/index.html"
+    },
+    "src": {
+      "js": {
+        "api": {
+          "auth": {
+            "login.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/auth/login.mjs",
+            "register.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/auth/register.mjs"
+          },
+          "authFetch.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/authFetch.mjs",
+          "constants.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/constants.mjs",
+          "listings": {
+            "bid.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/listings/bid.mjs",
+            "create.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/listings/create.mjs",
+            "delete.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/listings/delete.mjs",
+            "index.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/listings/index.mjs",
+            "read.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/listings/read.mjs",
+            "update.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/listings/update.mjs"
+          },
+          "profiles": {
+            "index.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/profiles/index.mjs",
+            "read.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/profiles/read.mjs",
+            "update.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/api/profiles/update.mjs"
+          }
+        },
+        "handlers": {
+          "bid.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/bid.mjs",
+          "createListing.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/createListing.mjs",
+          "login.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/login.mjs",
+          "logout.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/logout.mjs",
+          "register.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/register.mjs",
+          "updateListing.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/updateListing.mjs",
+          "updateProfile.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/handlers/updateProfile.mjs"
+        },
+        "index.js": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/index.js",
+        "listeners": {
+          "createListing.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/listeners/createListing.mjs",
+          "login.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/listeners/login.mjs",
+          "register.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/listeners/register.mjs",
+          "updateListing.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/listeners/updateListing.mjs",
+          "updateProfile.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/listeners/updateProfile.mjs"
+        },
+        "render": {
+          "index.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/render/index.mjs",
+          "listings.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/render/listings.mjs",
+          "nav.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/render/nav.mjs",
+          "profile.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/render/profile.mjs"
+        },
+        "storage": {
+          "index.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/storage/index.mjs"
+        },
+        "templates": {
+          "index.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/templates/index.mjs",
+          "listing.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/templates/listing.mjs",
+          "listings.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/templates/listings.mjs",
+          "profile.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/templates/profile.mjs",
+          "response.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/templates/response.mjs"
+        },
+        "utils": {
+          "addMediaButton.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/utils/addMediaButton.mjs",
+          "date.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/utils/date.mjs",
+          "loggedIn.mjs": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/js/utils/loggedIn.mjs"
+        }
+      },
+      "scss": {
+        "_variables.scss": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/scss/_variables.scss",
+        "styles.scss": "https://github.com/donnybrilliant/semester-project-2/blob/main/src/scss/styles.scss"
+      }
+    }
+  },
+  "social-media-client": {
+    ".env": "https://github.com/donnybrilliant/social-media-client/blob/main/.env",
+    ".env.example": "https://github.com/donnybrilliant/social-media-client/blob/main/.env.example",
+    ".eslintrc.json": "https://github.com/donnybrilliant/social-media-client/blob/main/.eslintrc.json",
+    ".github": {
+      "workflows": {
+        "e2e-test.yml": "https://github.com/donnybrilliant/social-media-client/blob/main/.github/workflows/e2e-test.yml",
+        "pages.yml": "https://github.com/donnybrilliant/social-media-client/blob/main/.github/workflows/pages.yml",
+        "unit-test.yml": "https://github.com/donnybrilliant/social-media-client/blob/main/.github/workflows/unit-test.yml"
+      }
+    },
+    ".gitignore": "https://github.com/donnybrilliant/social-media-client/blob/main/.gitignore",
+    ".husky": {
+      ".gitignore": "https://github.com/donnybrilliant/social-media-client/blob/main/.husky/.gitignore",
+      "pre-commit": "https://github.com/donnybrilliant/social-media-client/blob/main/.husky/pre-commit"
+    },
+    "README.md": "https://github.com/donnybrilliant/social-media-client/blob/main/README.md",
+    "assets": {
+      "img": {
+        "avatar.jpeg": "https://github.com/donnybrilliant/social-media-client/blob/main/assets/img/avatar.jpeg"
+      }
+    },
+    "babel.config.json": "https://github.com/donnybrilliant/social-media-client/blob/main/babel.config.json",
+    "cypress.config.js": "https://github.com/donnybrilliant/social-media-client/blob/main/cypress.config.js",
+    "cypress": {
+      "e2e": {
+        "auth.cy.js": "https://github.com/donnybrilliant/social-media-client/blob/main/cypress/e2e/auth.cy.js"
+      },
+      "fixtures": {
+        "example.json": "https://github.com/donnybrilliant/social-media-client/blob/main/cypress/fixtures/example.json"
+      },
+      "support": {
+        "commands.js": "https://github.com/donnybrilliant/social-media-client/blob/main/cypress/support/commands.js",
+        "e2e.js": "https://github.com/donnybrilliant/social-media-client/blob/main/cypress/support/e2e.js"
+      }
+    },
+    "index.html": "https://github.com/donnybrilliant/social-media-client/blob/main/index.html",
+    "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/index.js",
+    "package-lock.json": "https://github.com/donnybrilliant/social-media-client/blob/main/package-lock.json",
+    "package.json": "https://github.com/donnybrilliant/social-media-client/blob/main/package.json",
+    "src": {
+      "js": {
+        "api": {
+          "apiBase.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/apiBase.js",
+          "auth": {
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/index.js",
+            "login.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/login.js",
+            "login.test.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/login.test.js",
+            "logout.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/logout.js",
+            "logout.test.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/logout.test.js",
+            "register.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/register.js",
+            "state.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/auth/state.js"
+          },
+          "constants.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/constants.js",
+          "headers.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/headers.js",
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/index.js",
+          "posts": {
+            "comment.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/comment.js",
+            "create.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/create.js",
+            "create.test.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/create.test.js",
+            "delete.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/delete.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/index.js",
+            "react.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/react.js",
+            "read.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/read.js",
+            "update.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/posts/update.js"
+          },
+          "profiles": {
+            "delete.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/profiles/delete.js",
+            "follow.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/profiles/follow.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/profiles/index.js",
+            "read.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/profiles/read.js",
+            "unfollow.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/profiles/unfollow.js",
+            "update.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/api/profiles/update.js"
+          }
+        },
+        "data": {
+          "blank": {
+            "post.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/data/blank/post.js"
+          },
+          "emoji.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/data/emoji.js"
+        },
+        "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/index.js",
+        "listeners": {
+          "auth": {
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/auth/index.js",
+            "login.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/auth/login.js",
+            "logout.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/auth/logout.js",
+            "register.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/auth/register.js"
+          },
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/index.js",
+          "post": {
+            "comment.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/post/comment.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/post/index.js",
+            "reaction.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/post/reaction.js"
+          },
+          "profile": {
+            "follow.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/profile/follow.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/profile/index.js",
+            "unfollow.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/listeners/profile/unfollow.js"
+          }
+        },
+        "router": {
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/router/index.js",
+          "search.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/router/search.js",
+          "searchParams.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/router/searchParams.js"
+        },
+        "storage": {
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/storage/index.js",
+          "load.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/storage/load.js",
+          "remove.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/storage/remove.js",
+          "save.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/storage/save.js",
+          "storageMock.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/storage/storageMock.js",
+          "storageMock.test.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/storage/storageMock.test.js"
+        },
+        "templates": {
+          "comment": {
+            "badge.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/comment/badge.js",
+            "comment.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/comment/comment.js",
+            "form.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/comment/form.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/comment/index.js"
+          },
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/index.js",
+          "instance.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/instance.js",
+          "post": {
+            "actions.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/actions.js",
+            "comments.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/comments.js",
+            "footer.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/footer.js",
+            "form.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/form.js",
+            "header.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/header.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/index.js",
+            "loader.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/loader.js",
+            "media.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/media.js",
+            "page.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/page.js",
+            "reactions.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/reactions.js",
+            "tabs.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/tabs.js",
+            "tags.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/tags.js",
+            "thumbnail.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/post/thumbnail.js"
+          },
+          "profile": {
+            "button.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/button.js",
+            "followers.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/followers.js",
+            "following.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/following.js",
+            "follows.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/follows.js",
+            "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/index.js",
+            "page.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/page.js",
+            "thumbnail.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/templates/profile/thumbnail.js"
+          }
+        },
+        "tools": {
+          "clear.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/tools/clear.js",
+          "emojiSubset.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/tools/emojiSubset.js",
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/tools/index.js"
+        },
+        "ui": {
+          "auth.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/ui/auth.js",
+          "footer.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/ui/footer.js",
+          "header.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/ui/header.js",
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/ui/index.js",
+          "modals.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/ui/modals.js",
+          "renderView.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/ui/renderView.js"
+        },
+        "views": {
+          "index.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/views/index.js",
+          "postList.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/views/postList.js",
+          "postPage.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/views/postPage.js",
+          "profileList.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/views/profileList.js",
+          "profilePage.js": "https://github.com/donnybrilliant/social-media-client/blob/main/src/js/views/profilePage.js"
+        }
+      },
+      "scss": {
+        "index.scss": "https://github.com/donnybrilliant/social-media-client/blob/main/src/scss/index.scss"
+      }
+    }
+  },
+  "vierweb": {
+    ".cpanel.yml": "https://github.com/donnybrilliant/vierweb/blob/main/.cpanel.yml",
+    "index.html": "https://github.com/donnybrilliant/vierweb/blob/main/index.html",
+    "script.js": "https://github.com/donnybrilliant/vierweb/blob/main/script.js",
+    "style.css": "https://github.com/donnybrilliant/vierweb/blob/main/style.css"
+  },
+  "vite": {
+    ".github": {
+      "workflows": {
+        "static.yml": "https://github.com/donnybrilliant/vite/blob/main/.github/workflows/static.yml"
+      }
+    },
+    ".gitignore": "https://github.com/donnybrilliant/vite/blob/main/.gitignore",
+    "counter.js": "https://github.com/donnybrilliant/vite/blob/main/counter.js",
+    "index.html": "https://github.com/donnybrilliant/vite/blob/main/index.html",
+    "javascript.svg": "https://github.com/donnybrilliant/vite/blob/main/javascript.svg",
+    "main.js": "https://github.com/donnybrilliant/vite/blob/main/main.js",
+    "netlify.toml": "https://github.com/donnybrilliant/vite/blob/main/netlify.toml",
+    "package-lock.json": "https://github.com/donnybrilliant/vite/blob/main/package-lock.json",
+    "package.json": "https://github.com/donnybrilliant/vite/blob/main/package.json",
+    "public": {
+      "vite.svg": "https://github.com/donnybrilliant/vite/blob/main/public/vite.svg"
+    },
+    "style.css": "https://github.com/donnybrilliant/vite/blob/main/style.css",
+    "vite.config.js": "https://github.com/donnybrilliant/vite/blob/main/vite.config.js"
+  }
+}

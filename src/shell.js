@@ -126,6 +126,31 @@ function handleSetName(newName) {
   return setName(newName);
 }
 
+function remove(args = []) {
+  // Separate out the options (e.g., -r) from the actual target
+  const options = args.filter((arg) => arg.startsWith("-"));
+  const target = args.find((arg) => !arg.startsWith("-"));
+
+  const currentDir = getCurrentDir();
+
+  // If the target is not provided or does not exist in the current directory, return an error
+  if (!target || !currentDir[target]) {
+    return `${target}: No such file or directory`;
+  }
+
+  // Check if the target is a directory
+  const isDirectory = typeof currentDir[target] === "object";
+
+  // If it's a directory but -r option is not provided, return an error
+  if (isDirectory && !options.includes("-r")) {
+    return `${target}: is a directory (use -r to remove directories)`;
+  }
+
+  // If everything checks out, delete the target
+  delete currentDir[target];
+  return `${target} removed successfully`;
+}
+
 // Exporting the mocked commands for use in the command processor.
 export const commands = {
   ls: ls,
@@ -134,4 +159,5 @@ export const commands = {
   pwd: pwd,
   help: help,
   name: handleSetName,
+  rm: remove,
 };

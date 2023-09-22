@@ -1,5 +1,18 @@
 import fileData from "../data.json";
-import { ANSI_COLORS } from "./colors";
+
+let promptName = "";
+
+if (!fileData.hasOwnProperty("home")) {
+  fileData.home = {};
+}
+
+// Check if /home/user exists, if not, add it with mock documents.
+if (!fileData.home.hasOwnProperty("user")) {
+  fileData.home.user = {
+    document1: "This is the content of document1.",
+    document2: "Another content here for document2.",
+  };
+}
 
 let pathStack = ["home", "user"]; // We start in /home/user by default
 
@@ -9,7 +22,12 @@ let pathStack = ["home", "user"]; // We start in /home/user by default
  * @returns {object} - The current directory.
  */
 function getCurrentDir() {
-  return pathStack.reduce((acc, dir) => acc[dir], fileData);
+  return (
+    pathStack.reduce(
+      (acc, dir) => (acc && acc[dir] ? acc[dir] : undefined),
+      fileData
+    ) || fileData
+  );
 }
 
 /**
@@ -57,4 +75,49 @@ function getCurrentPath() {
   return "/" + pathStack.join("/");
 }
 
-export { getCurrentDir, setCurrentDir, getCurrentPath };
+function isWithinDir(directoryName) {
+  const oldName = promptName || "user"; // Take the default "user" if promptName is empty
+  return pathStack.includes(oldName) || pathStack.includes(directoryName);
+}
+
+function getName() {
+  return promptName;
+}
+
+function setName(newName) {
+  // Check if user is in the directory being deleted
+  const oldName = promptName || "user"; // Take the default "user" if promptName is empty
+  const inOldUserDir = isWithinDir(oldName);
+
+  if (!newName) {
+    return "Please provide a name.";
+  }
+
+  // Check if home directory exists
+  if (fileData.home) {
+    // Check if old user directory exists
+    if (fileData.home[oldName]) {
+      // Duplicate the old user directory to the new name
+      fileData.home[newName] = { ...fileData.home[oldName] };
+
+      // Delete the old user directory
+      delete fileData.home[oldName];
+
+      // Update the prompt name
+      promptName = newName;
+
+      if (inOldUserDir) {
+        // If in the old user directory, navigate to the new one
+        pathStack = ["home", newName];
+      }
+
+      return `Name updated to ${newName}`;
+    } else {
+      return `Error: Directory for ${oldName} not found.`;
+    }
+  } else {
+    return "Home directory not found.";
+  }
+}
+
+export { getCurrentDir, setCurrentDir, getCurrentPath, getName, setName };

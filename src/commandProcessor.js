@@ -33,6 +33,8 @@ export default function handleCommand(command) {
       return startMatrix(term);
     case "info":
       return getClientInfo();
+    case "name":
+      return commands.name(args.join(" "));
 
     default:
       return `Unknown command: ${cmd}`;

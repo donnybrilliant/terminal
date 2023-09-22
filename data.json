@@ -1,10 +1,4 @@
 {
-  "home": {
-    "user": {
-      "document1": "This is the content of document1.",
-      "document2": "Another content here for document2."
-    }
-  },
   "array-method-exercises": {
     "README.md": "https://github.com/donnybrilliant/array-method-exercises/blob/main/README.md",
     "filter": {

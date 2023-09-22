@@ -1,4 +1,5 @@
 import { stopMatrix } from "./random";
+import { getName } from "./fileSystem";
 
 let commandBuffer = ""; // Maintains a buffer of the current command being typed by the user.
 
@@ -47,7 +48,8 @@ export default function handleKeyInput(
     // Handle Enter key press.
     // Process the command, display the output, and reset the command buffer.
     const output = processCommand(commandBuffer);
-    term.write("\r\n" + output + "\r\n$ ");
+    const user = getName();
+    term.write(`\r\n${output}\r\n${user}$ `);
     commandBuffer = "";
   } else if (domEvent.ctrlKey && domEvent.key === "c") {
     // Handle Ctrl + C key press.

@@ -1,5 +1,7 @@
 import { setCurrentDir, getCurrentDir, getCurrentPath } from "./fileSystem.js";
 import { ANSI_COLORS } from "./colors";
+import { getName, setName } from "./fileSystem.js";
+
 /**
  * Mocked ShellJS 'ls' command with list flag support.
  * Lists contents of the given directory, excluding metadata.
@@ -113,10 +115,15 @@ function help() {
     `${ANSI_COLORS.green}cd <directory>${ANSI_COLORS.reset}  - Change current directory\r\n` +
     `${ANSI_COLORS.green}pwd${ANSI_COLORS.reset}             - Print current directory\r\n` +
     `${ANSI_COLORS.green}info${ANSI_COLORS.reset}            - Display browser info\r\n` +
+    `${ANSI_COLORS.green}name${ANSI_COLORS.reset}            - Change your username\r\n` +
     `${ANSI_COLORS.green}loadtest${ANSI_COLORS.reset}        - Stolen from xtermjs.org\r\n` +
     `${ANSI_COLORS.green}chars${ANSI_COLORS.reset}           - Stolen from xtermjs.org\r\n` +
     `${ANSI_COLORS.green}help${ANSI_COLORS.reset}            - Display this help menu`
   );
+}
+
+function handleSetName(newName) {
+  return setName(newName);
 }
 
 // Exporting the mocked commands for use in the command processor.
@@ -126,4 +133,5 @@ export const commands = {
   cd: cd,
   pwd: pwd,
   help: help,
+  name: handleSetName,
 };

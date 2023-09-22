@@ -37,6 +37,8 @@ export default function handleCommand(command) {
       return commands.name(args.join(" "));
     case "rm":
       return commands.rm(args);
+    case "clear":
+      return commands.clear();
 
     default:
       return `Unknown command: ${cmd}`;

@@ -159,6 +159,7 @@ export function chars(term) {
   term.writeln(
     lines.map((e) => `${e[0].padStart(maxLength)}  ${e[1]}\x1b[0m`).join("\r\n")
   );
+  return "";
 }
 
 async function writeWithDelay(term, message, delay) {
@@ -182,6 +183,7 @@ export async function hack(term) {
   await writeWithDelay(term, "Data downloaded. Disconnecting...", 700);
   term.writeln("Disconnected from remote node. Operation successful.");
   term.write("$ ");
+  return "";
 }
 
 let matrixInterval = null; // Module-scoped variable to hold the interval ID.
@@ -215,6 +217,7 @@ export function startMatrix(term) {
 
   // Start the matrix rain effect
   matrixInterval = setInterval(drawMatrixRain, 100);
+  return "";
 }
 
 export function stopMatrix() {

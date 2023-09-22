@@ -224,3 +224,13 @@ export function stopMatrix() {
   }
   term.write("\x1b[2J\x1b[H"); // Clear screen and reset cursor position
 }
+
+export function getClientInfo() {
+  return [
+    `User Agent: ${navigator.userAgent}`,
+    `Screen Dimensions: ${screen.width}x${screen.height}`,
+    `Window Dimensions: ${window.innerWidth}x${window.innerHeight}`,
+    `Current URL: ${window.location.href}`,
+    `Referrer URL: ${document.referrer}`,
+  ].join("\r\n");
+}

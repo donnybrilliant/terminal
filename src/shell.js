@@ -112,6 +112,7 @@ function help() {
     `${ANSI_COLORS.green}cat <filename>${ANSI_COLORS.reset}  - Display file contents\r\n` +
     `${ANSI_COLORS.green}cd <directory>${ANSI_COLORS.reset}  - Change current directory\r\n` +
     `${ANSI_COLORS.green}pwd${ANSI_COLORS.reset}             - Print current directory\r\n` +
+    `${ANSI_COLORS.green}info${ANSI_COLORS.reset}            - Display browser info\r\n` +
     `${ANSI_COLORS.green}loadtest${ANSI_COLORS.reset}        - Stolen from xtermjs.org\r\n` +
     `${ANSI_COLORS.green}chars${ANSI_COLORS.reset}           - Stolen from xtermjs.org\r\n` +
     `${ANSI_COLORS.green}help${ANSI_COLORS.reset}            - Display this help menu`

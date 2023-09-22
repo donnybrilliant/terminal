@@ -1,3 +1,4 @@
+import { term } from "../main";
 export function loadtest(term) {
   // ... rest of the loadtest function ...
   let testData = [];
@@ -158,4 +159,68 @@ export function chars(term) {
   term.writeln(
     lines.map((e) => `${e[0].padStart(maxLength)}  ${e[1]}\x1b[0m`).join("\r\n")
   );
+}
+
+async function writeWithDelay(term, message, delay) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      term.writeln(message);
+      resolve();
+    }, delay);
+  });
+}
+
+export async function hack(term) {
+  await writeWithDelay(term, "Initiating connection to remote node...", 500);
+  await writeWithDelay(term, "Connection established.", 600);
+  await writeWithDelay(term, "Decrypting node access...", 900);
+  await writeWithDelay(term, "Decryption successful.", 1100);
+  await writeWithDelay(term, "Accessing mainframe...", 800);
+  await writeWithDelay(term, "Running exploit scripts...", 1200);
+  await writeWithDelay(term, "Exploit successful! Node compromised.", 1000);
+  await writeWithDelay(term, "Gathering data...", 1500);
+  await writeWithDelay(term, "Data downloaded. Disconnecting...", 700);
+  term.writeln("Disconnected from remote node. Operation successful.");
+  term.write("$ ");
+}
+
+let matrixInterval = null; // Module-scoped variable to hold the interval ID.
+
+export function startMatrix(term) {
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const columns = term.cols; // Assume 'term' has 'cols' property to tell terminal width
+  const drops = [];
+
+  // Initialize drop positions
+  for (let i = 0; i < columns; i++) {
+    drops[i] = 1;
+  }
+
+  function drawMatrixRain() {
+    // Draw each drop
+    for (let i = 0; i < drops.length; i++) {
+      const text = characters.charAt(
+        Math.floor(Math.random() * characters.length)
+      );
+      term.write(`\x1b[${drops[i]};${i + 1}H\x1b[32m${text}\x1b[0m`);
+
+      // Random chance of resetting drop
+      if (Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  // Start the matrix rain effect
+  matrixInterval = setInterval(drawMatrixRain, 100);
+}
+
+export function stopMatrix() {
+  if (matrixInterval) {
+    clearInterval(matrixInterval);
+    matrixInterval = null;
+  }
+  term.write("\x1b[2J\x1b[H"); // Clear screen and reset cursor position
 }

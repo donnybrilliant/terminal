@@ -1,7 +1,6 @@
 import { commands } from "./shell.js";
 import { term } from "../main.js";
-import { loadtest } from "./random.js";
-import { chars } from "./random.js";
+import { loadtest, chars, hack, startMatrix } from "./random.js";
 
 /**
  * Main function to process terminal commands.
@@ -28,6 +27,10 @@ export default function handleCommand(command) {
       return loadtest(term);
     case "chars":
       return chars(term);
+    case "hack":
+      return hack(term);
+    case "matrix":
+      return startMatrix(term);
 
     default:
       return `Unknown command: ${cmd}`;

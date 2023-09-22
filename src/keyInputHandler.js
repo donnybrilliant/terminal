@@ -1,3 +1,5 @@
+import { stopMatrix } from "./random";
+
 let commandBuffer = ""; // Maintains a buffer of the current command being typed by the user.
 
 /**
@@ -47,6 +49,12 @@ export default function handleKeyInput(
     const output = processCommand(commandBuffer);
     term.write("\r\n" + output + "\r\n$ ");
     commandBuffer = "";
+  } else if (domEvent.ctrlKey && domEvent.key === "c") {
+    // Handle Ctrl + C key press.
+    stopMatrix();
+    term.write("\r\nInterrupted\r\n$ ");
+    commandBuffer = "";
+    return; // Exit out of the function after handling Ctrl + C.
   } else {
     // Handle regular key presses.
     // Append the character to the command buffer and display it on the terminal.

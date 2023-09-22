@@ -12,13 +12,15 @@ export default function handleCommand(command) {
 
   switch (cmd) {
     case "ls":
-      return commands.ls();
+      return commands.ls(args);
     case "cd":
       return commands.cd(args[0]);
     case "cat":
       return commands.cat(args[0]);
     case "pwd":
       return commands.pwd();
+    case "help":
+      return commands.help();
     default:
       return `Unknown command: ${cmd}`;
   }

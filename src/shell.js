@@ -23,12 +23,38 @@ function ls(args = []) {
         const type = isDir
           ? `${ANSI_COLORS.blue}[DIR]${ANSI_COLORS.reset} `
           : `${ANSI_COLORS.green}[FILE]${ANSI_COLORS.reset} `;
-        return type + entry;
+
+        if (isDir) {
+          return type + entry;
+        } else {
+          return type + createHyperlink(entry, path[entry]);
+        }
       })
       .join("\r\n");
   }
 
-  return contents.join("  ");
+  return contents
+    .map((entry) => {
+      if (typeof path[entry] === "object") {
+        return entry;
+      } else {
+        return createHyperlink(entry, path[entry]);
+      }
+    })
+    .join("  ");
+}
+
+/**
+ * Wraps a given text with ANSI escape codes to make it appear as a hyperlink in the terminal.
+ * When detected by a terminal handler (like xterm-addon-web-links), the text becomes clickable,
+ * redirecting the user to the specified URL.
+ *
+ * @param {string} text - The display text that will appear as a clickable hyperlink in the terminal.
+ * @param {string} url - The actual URL to which the hyperlink should point.
+ * @returns {string} - The text wrapped with the necessary ANSI escape codes to make it a hyperlink.
+ */
+function createHyperlink(text, url) {
+  return `\x1B]8;;${url}\x1B\\${text}\x1B]8;;\x1B\\`;
 }
 
 /**
@@ -86,6 +112,8 @@ function help() {
     `${ANSI_COLORS.green}cat <filename>${ANSI_COLORS.reset}  - Display file contents\r\n` +
     `${ANSI_COLORS.green}cd <directory>${ANSI_COLORS.reset}  - Change current directory\r\n` +
     `${ANSI_COLORS.green}pwd${ANSI_COLORS.reset}             - Print current directory\r\n` +
+    `${ANSI_COLORS.green}loadtest${ANSI_COLORS.reset}        - Stolen from xtermjs.org\r\n` +
+    `${ANSI_COLORS.green}chars${ANSI_COLORS.reset}           - Stolen from xtermjs.org\r\n` +
     `${ANSI_COLORS.green}help${ANSI_COLORS.reset}            - Display this help menu`
   );
 }

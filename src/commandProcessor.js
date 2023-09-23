@@ -9,7 +9,7 @@ import {
   appendToEditedContent,
   getEditedContent,
 } from "./edit.js";
-
+import { startSnakeGame } from "./snake.js";
 /**
  * Main function to process terminal commands.
  * Delegates work to individual command functions from the mockShell (shell.js).
@@ -84,6 +84,9 @@ export default function handleCommand(command) {
         return "Usage: mv <source> <destination>";
       }
       return commands.mv(args[0], args[1]);
+    case "snake":
+      startSnakeGame(term);
+      break;
     case "hola":
       return "hello";
 

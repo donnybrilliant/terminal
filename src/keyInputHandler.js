@@ -1,6 +1,7 @@
 import { stopMatrix } from "./random";
 import { getName } from "./fileSystem";
 import { isInEditMode, appendToEditedContent } from "./edit";
+import { stopSnakeGame } from "./snake";
 
 // Buffer to hold the current command being typed by the user.
 let commandBuffer = "";
@@ -65,6 +66,7 @@ export default function handleKeyInput(
   // Handle Ctrl + C key press
   if (domEvent.ctrlKey && domEvent.key === "c") {
     stopMatrix();
+    stopSnakeGame();
     term.write("\r\nInterrupted\r\n$ ");
     commandBuffer = ""; // Reset the command buffer
     return; // Exit function after handling Ctrl+C

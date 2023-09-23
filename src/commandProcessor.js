@@ -41,8 +41,14 @@ export default function handleCommand(command) {
     case "ls":
       return commands.ls(args);
     case "cd":
+      if (args.length !== 2) {
+        return "Usage: cd <folder> or ..";
+      }
       return commands.cd(args[0]);
     case "cat":
+      if (args.length !== 3) {
+        return "Usage: cat <filename>";
+      }
       return commands.cat(args[0]);
     case "pwd":
       return commands.pwd();

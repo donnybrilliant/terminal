@@ -139,6 +139,10 @@ function handleSetName(newName) {
 }
 
 function remove(args = []) {
+  if (args.length !== 2) {
+    return "Usage: rm <filename> or rm -r <folder>";
+  }
+
   // Separate out the options (e.g., -r) from the actual target
   const options = args.filter((arg) => arg.startsWith("-"));
   const target = args.find((arg) => !arg.startsWith("-"));

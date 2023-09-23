@@ -5,6 +5,7 @@ import "./node_modules/xterm/css/xterm.css";
 import "./src/styles.css";
 import processCommand from "./src/commandProcessor.js";
 import handleKeyInput from "./src/keyInputHandler.js";
+import ascii from "./src/ascii";
 
 export const term = new Terminal();
 
@@ -18,6 +19,7 @@ term.loadAddon(webLinksAddon);
 
 // Apply the terminal to the DOM
 term.open(document.getElementById("terminal"));
+term.focus();
 
 fitAddon.fit(); // Fit to the container on initial load
 
@@ -29,9 +31,4 @@ window.addEventListener("resize", () => {
 // Handle key input
 term.onKey((eventData) => handleKeyInput(eventData, term, processCommand));
 
-// Welcome message
-term.write("Welcome to the mock terminal.\r\n");
-term.write("Type 'help' to get started.\r\n\r\n");
-
-// Initial prompt
-term.write("$ ");
+ascii(term);

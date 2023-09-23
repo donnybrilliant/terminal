@@ -65,13 +65,14 @@ export function updateFileContent(newContent) {
 }
 
 export function appendToEditedContent(input) {
-  // If the input is an empty string, it means the user pressed 'Enter'
   if (input === "") {
-    editedContent += "\n";
-  } else if (editedContent) {
-    editedContent += input;
+    editedContent += "\n"; // Handle Enter key by appending a newline
   } else {
-    editedContent = input;
+    if (!editedContent && input) {
+      editedContent = input; // Initialize editedContent if it's empty
+    } else {
+      editedContent += "\n" + input; // Add a newline before the new input
+    }
   }
 }
 

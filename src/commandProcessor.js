@@ -64,6 +64,26 @@ export default function handleCommand(command) {
       return commands.rm(args);
     case "clear":
       return commands.clear();
+    case "mkdir":
+      if (args.length !== 1) {
+        return "Usage: mkdir <dirname>";
+      }
+      return commands.mkdir(args[0]);
+    case "touch":
+      if (args.length !== 1) {
+        return "Usage: touch <filename>";
+      }
+      return commands.touch(args[0]);
+    case "cp":
+      if (args.length !== 2) {
+        return "Usage: cp <source> <destination>";
+      }
+      return commands.cp(args[0], args[1]);
+    case "mv":
+      if (args.length !== 2) {
+        return "Usage: mv <source> <destination>";
+      }
+      return commands.mv(args[0], args[1]);
     case "hola":
       return "hello";
 

@@ -2,10 +2,11 @@ import { stopMatrix } from "./random";
 import { getName } from "./fileSystem";
 import { isInEditMode, appendToEditedContent } from "./edit";
 
-let commandBuffer = ""; // Maintains a buffer of the current command being typed by the user.
+// Buffer to hold the current command being typed by the user.
+let commandBuffer = "";
 
 /**
- * Getter function for the command buffer.
+ * Gets the current value of the command buffer.
  *
  * @returns {string} - The current value of the command buffer.
  */
@@ -14,7 +15,7 @@ export function getCommandBuffer() {
 }
 
 /**
- * Setter function for the command buffer.
+ * Sets a new value for the command buffer.
  *
  * @param {string} value - The value to set for the command buffer.
  */
@@ -23,12 +24,12 @@ export function setCommandBuffer(value) {
 }
 
 /**
- * Handles the individual key inputs from the user for the terminal.
+ * Handles individual key inputs from the user for the terminal.
  *
  * @param {Object} param0 - Destructured parameter object.
  * @param {string} param0.key - The character representation of the key pressed.
  * @param {Object} param0.domEvent - The original key event object.
- * @param {Object} term - The xterm.js terminal object where the input and output are displayed.
+ * @param {Object} term - The xterm.js terminal object.
  * @param {function} processCommand - The function to process the full command once Enter is pressed.
  */
 export default function handleKeyInput(
@@ -38,37 +39,38 @@ export default function handleKeyInput(
 ) {
   const keyCode = domEvent.keyCode;
 
-  // Handle backspace key press.
-  // Remove the last character from the command buffer and update the terminal display.
+  // Handle backspace key press
   if (keyCode === 8) {
     if (commandBuffer.length > 0) {
       commandBuffer = commandBuffer.slice(0, -1);
-      term.write("\b \b"); // Go back one space, write a space (to overwrite the character), then go back again.
+      term.write("\b \b"); // Erase the last character
     }
-  } else if (keyCode === 13) {
-    // Handle Enter key press.
-    // Process the command, display the output, and reset the command buffer.
-    const output = processCommand(commandBuffer);
+    return; // Exit function after handling Backspace key
+  }
 
+  // Handle Enter key press
+  if (keyCode === 13) {
+    const output = processCommand(commandBuffer);
     if (!isInEditMode()) {
-      // Only add new line and prompt if not in edit mode
+      // If not in edit mode, add a new line and prompt
       const user = getName();
       term.write(`\r\n${output}\r\n${user}$ `);
     } else {
       term.write(`\r\n${output}`);
     }
+    commandBuffer = ""; // Reset the command buffer
+    return; // Exit function after handling Enter key
+  }
 
-    commandBuffer = "";
-  } else if (domEvent.ctrlKey && domEvent.key === "c") {
-    // Handle Ctrl + C key press.
+  // Handle Ctrl + C key press
+  if (domEvent.ctrlKey && domEvent.key === "c") {
     stopMatrix();
     term.write("\r\nInterrupted\r\n$ ");
-    commandBuffer = "";
-    return; // Exit out of the function after handling Ctrl + C.
-  } else {
-    // Handle regular key presses.
-    // Append the character to the command buffer and display it on the terminal.
-    commandBuffer += key;
-    term.write(key);
+    commandBuffer = ""; // Reset the command buffer
+    return; // Exit function after handling Ctrl+C
   }
+
+  // For regular key presses, append the character to the command buffer and write to terminal
+  commandBuffer += key;
+  term.write(key);
 }

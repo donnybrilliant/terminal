@@ -160,6 +160,53 @@ function clear() {
   return "";
 }
 
+function mkdir(dirname) {
+  const currentDir = getCurrentDir();
+  if (currentDir[dirname]) {
+    return `mkdir: ${dirname}: File or directory already exists`;
+  }
+  currentDir[dirname] = { name: dirname, parent: currentDir };
+  return `Directory '${dirname}' created`;
+}
+
+function touch(filename) {
+  const currentDir = getCurrentDir();
+  if (currentDir[filename]) {
+    return `touch: ${filename}: File already exists`;
+  }
+  currentDir[filename] = "";
+  return `File '${filename}' created`;
+}
+
+function cp(source, destination) {
+  const currentDir = getCurrentDir();
+
+  // Use the "in" operator to check for property existence
+  if (!(source in currentDir)) {
+    return `cp: ${source}: No such file or directory`;
+  }
+  if (destination in currentDir) {
+    return `cp: ${destination}: File or directory already exists`;
+  }
+  currentDir[destination] = currentDir[source];
+  return `File '${source}' copied to '${destination}'`;
+}
+
+function mv(source, destination) {
+  const currentDir = getCurrentDir();
+
+  // Use the "in" operator to check for property existence
+  if (!(source in currentDir)) {
+    return `mv: ${source}: No such file or directory`;
+  }
+  if (destination in currentDir) {
+    return `mv: ${destination}: File or directory already exists`;
+  }
+  currentDir[destination] = currentDir[source];
+  delete currentDir[source];
+  return `File '${source}' moved to '${destination}'`;
+}
+
 // Exporting the mocked commands for use in the command processor.
 export const commands = {
   ls: ls,
@@ -170,4 +217,8 @@ export const commands = {
   name: handleSetName,
   rm: remove,
   clear: clear,
+  mkdir: mkdir,
+  touch: touch,
+  cp: cp,
+  mv: mv,
 };

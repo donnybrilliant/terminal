@@ -111,18 +111,25 @@ function pwd() {
 function help() {
   return (
     `${ANSI_COLORS.red}Available commands:\r\n` +
-    `${ANSI_COLORS.green}ls [-l]${ANSI_COLORS.reset}         - List directory contents\r\n` +
-    `${ANSI_COLORS.green}cat <filename>${ANSI_COLORS.reset}  - Display file contents\r\n` +
-    `${ANSI_COLORS.green}rm <filename>${ANSI_COLORS.reset}   - Delete file\r\n` +
-    `${ANSI_COLORS.green}rm -r <folder>${ANSI_COLORS.reset}  - Delete folder\r\n` +
-    `${ANSI_COLORS.green}cd <directory>${ANSI_COLORS.reset}  - Change current directory\r\n` +
-    `${ANSI_COLORS.green}pwd${ANSI_COLORS.reset}             - Print current directory\r\n` +
-    `${ANSI_COLORS.green}info${ANSI_COLORS.reset}            - Display browser info\r\n` +
-    `${ANSI_COLORS.green}name${ANSI_COLORS.reset}            - Change your username\r\n` +
-    `${ANSI_COLORS.green}loadtest${ANSI_COLORS.reset}        - Stolen from xtermjs.org\r\n` +
-    `${ANSI_COLORS.green}chars${ANSI_COLORS.reset}           - Stolen from xtermjs.org\r\n` +
-    `${ANSI_COLORS.green}clear${ANSI_COLORS.reset}           - Clears terminal\r\n` +
-    `${ANSI_COLORS.green}help${ANSI_COLORS.reset}            - Display this help menu`
+    `${ANSI_COLORS.green}ls [-l]${ANSI_COLORS.reset}                  - List directory contents\r\n` +
+    `${ANSI_COLORS.green}cat <filename>${ANSI_COLORS.reset}           - Display file contents\r\n` +
+    `${ANSI_COLORS.green}edit|vi|nano <filename>${ANSI_COLORS.reset}  - Edit a file\r\n` +
+    `${ANSI_COLORS.green}touch <filename>${ANSI_COLORS.reset}         - Create a new file\r\n` +
+    `${ANSI_COLORS.green}mkdir <foldername>${ANSI_COLORS.reset}       - Create a new directory\r\n` +
+    `${ANSI_COLORS.green}cp <src> <dest>${ANSI_COLORS.reset}          - Copy files/folders\r\n` +
+    `${ANSI_COLORS.green}mv <src> <dest>${ANSI_COLORS.reset}          - Move or rename files/folders\r\n` +
+    `${ANSI_COLORS.green}rm <filename>${ANSI_COLORS.reset}            - Delete file\r\n` +
+    `${ANSI_COLORS.green}rm -r <folder>${ANSI_COLORS.reset}           - Delete folder\r\n` +
+    `${ANSI_COLORS.green}cd <directory>${ANSI_COLORS.reset}           - Change current directory\r\n` +
+    `${ANSI_COLORS.green}pwd${ANSI_COLORS.reset}                      - Print current directory\r\n` +
+    `${ANSI_COLORS.green}info${ANSI_COLORS.reset}                     - Display browser info\r\n` +
+    `${ANSI_COLORS.green}name${ANSI_COLORS.reset}                     - Change your username\r\n` +
+    `${ANSI_COLORS.green}matrix${ANSI_COLORS.reset}                   - Start the Matrix animation\r\n` +
+    `${ANSI_COLORS.green}hack${ANSI_COLORS.reset}                     - Simulate hacking (just for fun!)\r\n` +
+    `${ANSI_COLORS.green}loadtest${ANSI_COLORS.reset}                 - Stolen from xtermjs.org\r\n` +
+    `${ANSI_COLORS.green}chars${ANSI_COLORS.reset}                    - Stolen from xtermjs.org\r\n` +
+    `${ANSI_COLORS.green}clear${ANSI_COLORS.reset}                    - Clears terminal\r\n` +
+    `${ANSI_COLORS.green}help${ANSI_COLORS.reset}                     - Display this help menu`
   );
 }
 

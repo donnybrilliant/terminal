@@ -70,7 +70,7 @@ function createHyperlink(text, url) {
 function cat(filename) {
   const currentDir = getCurrentDir();
   if (filename in currentDir) {
-    return currentDir[filename];
+    return currentDir[filename].replace(/\n/g, "\r\n");
   } else {
     return `cat: ${filename}: No such file`;
   }

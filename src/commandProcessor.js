@@ -1,6 +1,14 @@
 import { commands } from "./shell.js";
 import { term } from "../main.js";
 import { loadtest, chars, hack, startMatrix, getClientInfo } from "./random.js";
+import {
+  editFile,
+  saveEdits,
+  exitEdit,
+  isInEditMode,
+  appendToEditedContent,
+  getEditedContent,
+} from "./edit.js";
 
 /**
  * Main function to process terminal commands.
@@ -12,7 +20,24 @@ import { loadtest, chars, hack, startMatrix, getClientInfo } from "./random.js";
 export default function handleCommand(command) {
   const [cmd, ...args] = command.split(" ");
 
+  // Check if the system is in edit mode
+  if (isInEditMode()) {
+    if (cmd.trim() === ":save") {
+      return saveEdits(getEditedContent().trim());
+    } else if (cmd.trim() === ":exit") {
+      return exitEdit();
+    } else {
+      appendToEditedContent(cmd); // Add the user input to editedContent
+      return "";
+    }
+  }
+
+  // If not in edit mode, proceed with normal command processing
   switch (cmd) {
+    case "nano":
+    case "vi":
+    case "edit":
+      return editFile(args[0]);
     case "ls":
       return commands.ls(args);
     case "cd":
@@ -39,6 +64,8 @@ export default function handleCommand(command) {
       return commands.rm(args);
     case "clear":
       return commands.clear();
+    case "hola":
+      return "hello";
 
     default:
       return `Unknown command: ${cmd}`;
